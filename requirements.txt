@@ -1,4 +1,4 @@
 nltk
 numpy
 tflearn
-tensorflow
+tensorflow<2
