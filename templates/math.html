@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Enter equation</title>
+</head>
+<body>
+    <p>which equation?</p>
+    <div class="container">
+    
+    <form action="/math" method="POST">
+        <input type="text" class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" name="eq" id="eq" placeholder="Chat" autofocus required/>
+        <input type="submit" value="Submit" class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-green-500 rounded">
+    </form>
+    </div>
+</body>
+</html>
